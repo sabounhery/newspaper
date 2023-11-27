@@ -1,0 +1,57 @@
+.content{
+    width: 400px;
+    
+    min-height: max-content;
+    margin: 20px;
+    display: flex;
+    border: 1px solid;
+
+    flex-direction: column;
+    
+
+}
+/****/
+.topnav {
+    background-color: hsl(0, 0%, 20%);
+    overflow: hidden;
+    width: max-content;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav link{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav link{
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav Link{
+    background-color: #04AA6D;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button{
+    height: 50px;
+    background-color: #04AA6D;
+    color: #ddd;
+  }
+  .favori{
+
+  }
+  .button p{
+    color: #c90f53;
+  }
+  .favori{
+    background-color: #c90f53;
+  }
